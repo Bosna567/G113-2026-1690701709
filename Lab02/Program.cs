@@ -52,14 +52,14 @@ namespace Lab02
             int currentHp1 = 10;
             float attackPower1 = 30.78f;
             double critMultiplier1 = 1.25;
-            bool isBoss1 = false;
+            bool isEnemy1 = true;
 
             Console.WriteLine($"Name: {bossName1}");
             Console.WriteLine($"Rank: {rank1}");
             Console.WriteLine($"HP: {currentHp1}");
             Console.WriteLine($"Attack Power: {attackPower1}");
             Console.WriteLine($"Crit Multiplier: {critMultiplier1}");
-            Console.WriteLine($"Is Boss: {isBoss1}");
+            Console.WriteLine($"Is Enemy: {isEnemy1}");
 
             Console.WriteLine("=====  MOB 2 !!!SPAWN =====");
             string mobName2 = "Ben";
@@ -69,14 +69,15 @@ namespace Lab02
             int currentHp2 = 70;
             float attackPower2 = 30.5f;
             double critMultiplier2 = 1.5;
-            bool isBoss2 = false;
+            bool is2 = true;
+            bool isEnemy2 = true;
 
             Console.WriteLine($"Name: {mobName2}");
             Console.WriteLine($"Rank: {rank2}");
             Console.WriteLine($"HP: {currentHp2}");
             Console.WriteLine($"Attack Power: {attackPower2}");
             Console.WriteLine($"Crit Multiplier: {critMultiplier2}");
-            Console.WriteLine($"Is Boss: {isBoss2}");
+            Console.WriteLine($"Is Enemy: {isEnemy2}");
 
             Console.WriteLine("=====  MOB 3 !!!SPAWN =====");
             string mobName3 = "Bam";
@@ -86,14 +87,14 @@ namespace Lab02
             int currentHp3 = 130;
             float attackPower3 = 30.25f;
             double critMultiplier3 = 0.25;
-            bool isBoss3 = false;
+            bool isEnemy3 = true;
 
             Console.WriteLine($"Name: {mobName3}");
             Console.WriteLine($"Rank: {rank3}");
             Console.WriteLine($"HP: {currentHp3}");
             Console.WriteLine($"Attack Power: {attackPower3}");
             Console.WriteLine($"Crit Multiplier: {critMultiplier3}");
-            Console.WriteLine($"Is Boss: {isBoss3}");
+            Console.WriteLine($"Is Enemy: {isEnemy3}");
 
             Console.WriteLine("=====  MOB 4 !!!SPAWN =====");
             string mobName4 = "Boom";
@@ -103,14 +104,14 @@ namespace Lab02
             int currentHp4 = 40;
             float attackPower4 = 15.50f;
             double critMultiplier4 = 1;
-            bool isBoss4 = false;
+            bool isEnemy4 = true;
 
             Console.WriteLine($"Name: {mobName4}");
             Console.WriteLine($"Rank: {rank4}");
             Console.WriteLine($"HP: {currentHp4}");
             Console.WriteLine($"Attack Power: {attackPower4}");
             Console.WriteLine($"Crit Multiplier: {critMultiplier4}");
-            Console.WriteLine($"Is Boss: {isBoss4}");
+            Console.WriteLine($"Is Enemy: {isEnemy4}");
 
             Console.WriteLine("=====  MOB 5 !!!SPAWN =====");
             string mobName5 = "Ba";
@@ -120,14 +121,14 @@ namespace Lab02
             int currentHp5 = 40;
             float attackPower5 = 10.50f;
             double critMultiplier5 = 2;
-            bool isBoss5 = false;
+            bool isEnemy5 = true;
 
             Console.WriteLine($"Name: {mobName5}");
             Console.WriteLine($"Rank: {rank5}");
             Console.WriteLine($"HP: {currentHp5}");
             Console.WriteLine($"Attack Power: {attackPower5}");
             Console.WriteLine($"Crit Multiplier: {critMultiplier5}");
-            Console.WriteLine($"Is Boss: {isBoss5}");
+            Console.WriteLine($"Is Enemy: {isEnemy5}");
         }
     }
 }
