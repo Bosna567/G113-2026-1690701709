@@ -6,7 +6,8 @@
         {
             const string GameTitle = "▄████████  ▄█       ████████▄     ▄████████ ███▄▄▄▄           ▄████████  ▄█  ███▄▄▄▄      ▄██████▄  \r\n          ███    ███ ███       ███   ▀███   ███    ███ ███▀▀▀██▄        ███    ███ ███  ███▀▀▀██▄   ███    ███ \r\n          ███    █▀  ███       ███    ███   ███    █▀  ███   ███        ███    ███ ███▌ ███   ███   ███    █▀  \r\n         ▄███▄▄▄     ███       ███    ███  ▄███▄▄▄     ███   ███       ▄███▄▄▄▄██▀ ███▌ ███   ███  ▄███        \r\n        ▀▀███▀▀▀     ███       ███    ███ ▀▀███▀▀▀     ███   ███      ▀▀███▀▀▀▀▀   ███▌ ███   ███ ▀▀███ ████▄  \r\n          ███    █▄  ███       ███    ███   ███    █▄  ███   ███      ▀███████████ ███  ███   ███   ███    ███ \r\n          ███    ███ ███▌    ▄ ███   ▄███   ███    ███ ███   ███        ███    ███ ███  ███   ███   ███    ███ \r\n           ██████████ █████▄▄██ ████████▀    ██████████  ▀█   █▀         ███    ███ █▀    ▀█   █▀    ████████▀  \r\n                       ▀                                                  ███    ███                             ";
             const string Characterclass = "Astrologer";
-
+            var characterName = "Bossy";
+            var Weapons = "Dagger";
             int Level = 6;
             int Vigor = 9;
             int Mind = 15;
@@ -29,22 +30,24 @@
             Console.WriteLine($"          ███    █▄  ███       ███    ███   ███    █▄  ███   ███      ▀███████████ ███  ███   ███   ███    ███ ");
             Console.WriteLine($"          ███    ███ ███▌    ▄ ███   ▄███   ███    ███ ███   ███        ███    ███ ███  ███   ███   ███    ███ ");
             Console.WriteLine($"          ██████████ █████▄▄██ ████████▀    ██████████  ▀█   █▀         ███    ███ █▀    ▀█   █▀    ████████▀  ");
-            Console.WriteLine($"                       ▀                                                ███    ███                             ");
+            Console.WriteLine($"                                                                        ███    ███                             ");
 
 
 
-            Console.WriteLine($"                                            Character class: {Characterclass}");
-            Console.WriteLine($"                                         |       level       :  {Level}         |");
-            Console.WriteLine($"                                         |       Vigor       :  {Vigor}         |");
-            Console.WriteLine($"                                         |       Mind        :  {Mind}        |");
-            Console.WriteLine($"                                         |       Endurance   :  {Endurance}         |");
-            Console.WriteLine($"                                         |       Strength    :  {Strength}         |");
-            Console.WriteLine($"                                         |       Dexterity   :  {Dexterity}        |");
-            Console.WriteLine($"                                         |       Intelligence:  {Intelligence}        |");
-            Console.WriteLine($"                                         |       Faith       :  {Faith}         |");
-            Console.WriteLine($"                                         |       Arcane      :  {Arcane}         |");
-            Console.WriteLine($"                                         |       Stamina     :  {staminaPrecise}      |");
-            Console.WriteLine($"                                         |       Playable    :  {isPlayable}      |");
+            Console.WriteLine($"                                         |    Character class: {Characterclass} |");
+            Console.WriteLine($"                                         |    Character name : {characterName}      |");
+            Console.WriteLine($"                                         |     Weapons     : {Weapons}       |");
+            Console.WriteLine($"                                         |     level       :  {Level}           |");
+            Console.WriteLine($"                                         |     Vigor       :  {Vigor}           |");
+            Console.WriteLine($"                                         |     Mind        :  {Mind}          |");
+            Console.WriteLine($"                                         |     Endurance   :  {Endurance}           |");
+            Console.WriteLine($"                                         |     Strength    :  {Strength}           |");
+            Console.WriteLine($"                                         |     Dexterity   :  {Dexterity}          |");
+            Console.WriteLine($"                                         |     Intelligence:  {Intelligence}          |");
+            Console.WriteLine($"                                         |     Faith       :  {Faith}           |");
+            Console.WriteLine($"                                         |     Arcane      :  {Arcane}           |");
+            Console.WriteLine($"                                         |     Stamina     :  {staminaPrecise}        |");
+            Console.WriteLine($"                                         |     Playable    :  {isPlayable}        |");
             Console.WriteLine();
 
 
