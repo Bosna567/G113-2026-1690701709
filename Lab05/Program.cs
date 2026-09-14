@@ -35,6 +35,8 @@
 
             //Hero drink potion before the fight(compond assignment)
             int potion = 14;
+            //heroHp + HeroHp + potionHeal ผลคือ 114(สมมติ HP 100)
+            //heroHp +=potionHeal ผลคือ 114การคำนวนเหมือนกัน แต่การเขียนแบบนี้สั้นกว่า
             heroHp += potion;
             Console.WriteLine($"Hero drinks a potion healing {potion} Hp, Hero Hp is {heroHp}");
 
@@ -46,7 +48,7 @@
             Console.WriteLine($"Counter acctack deals : {conunterDamage} DMG");
             Random rng = new Random();
             int roll = rng.Next(1, 101); //สุ่ม 1 ถึว 100 ต้องเพิ่ม1ตลอด
-            bool isCrit = roll <= 10; // โอกกาสคริติคอล 10 ตัวใน100 คือ 100
+            bool isCrit = roll <= 80; // โอกกาสคริติคอล 10 ตัวใน100 คือ 100
             int critDmage = normalDamage + Convert.ToInt32(isCrit) * normalDamage; // ได้ค่า 1 หรือ 0 เป็นตัวกำหมดว่าจะได้คริติคอลหรือไม่
             Console.WriteLine($"CritDamage roll : {roll} (Crit? : {isCrit}");
             Console.WriteLine($"IF crit, nomal attact would deal : {critDmage} DMG");
