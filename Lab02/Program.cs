@@ -130,6 +130,7 @@ namespace Lab02
             Console.WriteLine($"Crit Multiplier: {critMultiplier5}");
             Console.WriteLine($"Is Enemy: {isEnemy5}");
 
+
         }
     }
 }
